@@ -5,6 +5,7 @@ import math
 grid_size = 4
 SCORE = 0
 class GameLogic:
+    #hello
     def __init__(self):
         self.grid = np.zeros((grid_size, grid_size), dtype=int)
         self.choices = [2, 4]
